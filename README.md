@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🏙️ **RealEstate Research Tool**
 
 We are going to build a user-friendly news research tool designed for effortless information retrieval. Users can input article URLs and ask questions to receive relevant insights from the real-estate domain. (But it's features can be extended to any domain.)
@@ -56,5 +55,3 @@ The web app will open in your browser after the set-up is complete.
 
 ---
 =======
-# RAG-Project1
->>>>>>> bee187ceb2384399951e45328564731e4f2b667b 
