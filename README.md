@@ -42,7 +42,7 @@ The web app will open in your browser after the set-up is complete.
 
 - The embeddings will be stored in ChromaDB.
 
-- One can now ask a question and get the answer based on those news articles
+- One can now ask a question and get the answer based on those news articles and make sure that the access is denied if that happens then the LLM will not have any information!
 
 </br>
 
