@@ -34,7 +34,15 @@ def initialize_components():
             model_kwargs={"trust_remote_code": True}
         )
 
+        chroma_client = Client(
+            Settings(
+                chroma_db_impl="duckdb+parquet",
+                persist_directory="./chroma_store"  # or "/tmp/chroma" if needed
+            )
+        )
+
         vector_store = Chroma(
+            client=chroma_client,
             collection_name=COLLECTION_NAME,
             embedding_function=ef,
             persist_directory=str(VECTORSTORE_DIR)
